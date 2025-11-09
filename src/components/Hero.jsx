@@ -27,7 +27,7 @@ const Hero = () => {
             </h2>
             <div className="prose prose-lg max-w-none mb-8">
               <p className="text-gray-600 leading-relaxed mb-4">
-                Hi! I'm Hannah Kim, a recent Grinnell College grad with a dual focus in Statistics and Biology, currently diving into data at Argonne National Laboratory as a SULI Data Scientist. My work blends data science, AI/ML, and storytelling—often through interactive visualizations that make even the messiest datasets sing.
+                I'm a recent Grinnell College grad with a dual focus in Statistics and Biology, currently diving into data at Argonne National Laboratory as a SULI Data Scientist. My work blends data science, AI/ML, and storytelling—often through interactive visualizations that make even the messiest datasets sing.
               </p>
               <p className="text-gray-600 leading-relaxed mb-4">
                 Whether I'm analyzing vehicle trends or optimizing group assignments with custom-built R packages, I love turning raw data into real-world impact. I especially enjoy working on projects at the intersection of healthcare, sustainability, and technology, and I'm always looking for ways to level up my Python, R, and SQL chops (bonus points if it involves machine learning or cool Sankey plots).

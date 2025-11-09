@@ -7,7 +7,7 @@ export const projects = [
     category: "Predictive Modeling",
     year: "2024",
     github: "https://github.com/kimhanna3/house-price-prediction",
-    image: "/images/projects/house-price.jpg",
+    image: "hannah_blog/projects/house_price_prediction/78036515.png",
     featured: true
   },
   {
