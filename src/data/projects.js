@@ -18,7 +18,7 @@ export const projects = [
     category: "Natural Language Processing",
     year: "2024",
     github: "https://github.com/kimhanna3/sentiment-analysis",
-    image: "/images/projects/sentiment-analysis.jpg",
+    image: "hannah_blog/projects/sentiment-analysis/write-product-reviews.png",
     featured: true
   },
   {

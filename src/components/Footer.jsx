@@ -6,12 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-white border-t border-gray-200 mt-20">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="flex flex-col md:flex-row justify-between items-center">
-          {/* Copyright */}
-          <p className="text-gray-600 text-sm mb-4 md:mb-0">
-            © {currentYear} Hannah Kim. All rights reserved.
-          </p>
-
+        <div className="flex flex-col md:flex-row justify-center items-center">
           {/* Social Links */}
           <div className="flex space-x-6">
             <a

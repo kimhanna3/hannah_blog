@@ -39,7 +39,7 @@ const Navbar = () => {
               </Link>
             ))}
             <a
-              href="mailto:hannahkim@example.com"
+              href="mailto:hannahminjikim@gmail.com"
               className="text-lg font-medium text-gray-600 hover:text-coral transition-colors"
             >
               Contact
@@ -89,7 +89,7 @@ const Navbar = () => {
               </Link>
             ))}
             <a
-              href="mailto:hannahkim@example.com"
+              href="mailto:hannahminjikim@gmail.com"
               className="block py-2 text-lg font-medium text-gray-600 hover:text-coral transition-colors"
               onClick={() => setIsOpen(false)}
             >
