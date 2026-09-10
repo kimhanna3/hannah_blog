@@ -1,22 +1,22 @@
 export const blogPosts = [
   {
     id: 6,
-    slug: "miles-and-macchiatos",
-    title: "Miles & Macchiatos: Training for My First Half-Marathon, One Coffee Shop at a Time",
+    slug: "training-for-my-first-half-marathon",
+    title: "Training for My First Half-Marathon: 15 Miles a Week, One Step at a Time",
     date: "September 9, 2026",
-    categories: ["Personal", "Running", "Coffee", "Lifestyle"],
-    excerpt: "Two of my favorite routines have quietly become one: logging steady training miles for my first half-marathon, then rewarding myself by hunting down the best coffee shops around Dallas-Fort Worth. Here's how the two fit together.",
-    image: "/images/blog/miles-and-macchiatos.jpg",
+    categories: ["Personal", "Running", "Lifestyle"],
+    excerpt: "This December I'm running my first half-marathon at the BMW Dallas Marathon. Here's the steady, refreshingly boring routine getting me there, and a little bit of the math behind it.",
+    image: "/images/blog/running.jpeg",
     content: `
-There are two things I look forward to every single week. The first is lacing up my shoes and heading out for a run. The second is finding a good cup of coffee to sit with afterward. Somewhere along the way, these two routines stopped being separate hobbies and started feeling like two halves of the same ritual: put in the miles, then go find something worth savoring. So I figured it was time to write about both.
+One of the things I look forward to most every week is lacing up my shoes and heading out for a run. It's the one part of my day that has nothing to do with a screen, a deadline, or a dataset. So when I signed up for my first half-marathon, it felt less like taking on a challenge and more like giving something I already love a finish line to point at.
 
-![Running shoes and GPS watch with weekly split graphics](image-url-here)
+![Running shoes and GPS watch after a long run](/images/blog/running.jpeg)
 
 ## The Goal: 13.1 Miles This December
 
 This December, I'm running my first half-marathon at the BMW Dallas Marathon. Thirteen point one miles. Saying it out loud still makes me a little nervous, which is exactly why I signed up.
 
-For me, running has never really been about racing anyone. It's the one part of my day that has nothing to do with a screen, a deadline, or a dataset. It's where I go to clear my head. There's something about a steady, repetitive effort that untangles the knots from a long workday. And training for a specific event has added a layer I didn't expect to love as much as I do: discipline. Having a goal on the calendar turns "I should probably run today" into "this is part of the plan."
+For me, running has never really been about racing anyone. It's where I go to clear my head. There's something about a steady, repetitive effort that untangles the knots from a long workday. And training for a specific event has added a layer I didn't expect to love as much as I do: discipline. Having a goal on the calendar turns "I should probably run today" into "this is part of the plan."
 
 ## My Weekly Routine (and the Math Behind It)
 
@@ -32,23 +32,33 @@ The other number I keep in the back of my mind: my current long run of six miles
 
 Steady progression. Small, repeatable inputs. Trust the compounding. It's honestly not so different from how I approach a good analysis.
 
-## Where the Coffee Comes In
+So that's my season, at least until December. Fifteen miles a week, inching toward 13.1. And when a long run is done, there's usually a good cup of coffee waiting as the reward, but that's a story for another post. If you want to talk pacing and long runs, I'd love to hear it. See you at the finish line.
+    `
+  },
+  {
+    id: 7,
+    slug: "dfw-coffee-shop-hunt",
+    title: "My DFW Coffee Shop Hunt: Three Local Favorites",
+    date: "September 8, 2026",
+    categories: ["Personal", "Coffee", "Lifestyle"],
+    excerpt: "Half my weekly ritual is running; the other half is finding a great cup of coffee to sit with afterward. The Dallas-Fort Worth coffee scene is wonderful and underrated, and these three spots have earned a permanent place in my rotation.",
+    image: "/images/blog/dfw-coffee.jpg",
+    content: `
+If you've read about my half-marathon training, you know the running is only half of my weekly ritual. The other half is the reward: after a long run, or sometimes just because I want an excuse to explore, I go hunting for coffee. The Dallas-Fort Worth area has a genuinely wonderful and underrated coffee scene, and I've made it a personal project to find the spots worth returning to. These three have earned a permanent place in my rotation.
 
-Here's the reward half of the ritual. After a long run, or sometimes just because I want an excuse to explore, I go hunting for coffee. The Dallas-Fort Worth area has a genuinely wonderful and underrated coffee scene, and I've made it a personal project to find the spots worth returning to. These three have earned a permanent place in my rotation.
-
-### Dessert Avenue (Lewisville)
+## Dessert Avenue (Lewisville)
 
 ![Sweet pairings and a specialty drink at Dessert Avenue in Lewisville](image-url-here)
 
 Dessert Avenue is my go-to when I want the whole experience to feel like a treat. The atmosphere is cozy and warm, the kind of place you sink into rather than pass through. But the real magic is the pairings. Their drinks are thoughtfully made, and pairing one with something sweet turns a simple coffee run into a proper little celebration. It's exactly the kind of small indulgence that makes a 6-mile morning feel earned.
 
-### 1418 Coffee (Plano)
+## 1418 Coffee (Plano)
 
 ![Espresso being pulled at 1418 Coffee in Plano](image-url-here)
 
 If Dessert Avenue is about the treat, 1418 Coffee is about the feeling of belonging. There's a genuinely welcoming, community-first energy to the place, the sort of shop where you sense the regulars know each other. The aesthetic is warm and inviting, and the espresso is seriously well made. It's become my spot for those slower mornings when I want good coffee and the comfortable hum of people around me.
 
-### Parks Coffee Roaster (Carrollton)
+## Parks Coffee Roaster (Carrollton)
 
 ![Freshly roasted beans and pour-over at Parks Coffee Roaster in Carrollton](image-url-here)
 
@@ -56,9 +66,7 @@ Parks Coffee Roaster is where I go when I need room to breathe or think. It has 
 
 ## Bringing It All Together
 
-The more I think about it, the more these two routines mirror each other. Running is the structure: the plan, the discipline, the steady inputs I can measure and trust. Coffee is the discovery: the open-ended exploring, the small rewards, the reason to slow down and actually enjoy where I am. One builds the habit; the other makes the habit something I genuinely look forward to.
-
-So that's my season, at least until December. Fifteen miles a week, one cup at a time, inching toward 13.1. If you have a DFW coffee shop I need to add to the rotation, or you just want to talk pacing and long runs, I'd love to hear it. See you at the finish line, or the espresso bar.
+Running is the structure of my week; coffee is the discovery. One builds the habit, the other makes it something I genuinely look forward to. If you have a DFW coffee shop I need to add to the rotation, I'd love to hear it. See you at the espresso bar.
     `
   },
   {
