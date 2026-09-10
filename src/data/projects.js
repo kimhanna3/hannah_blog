@@ -11,6 +11,17 @@ export const projects = [
     featured: true
   },
   {
+    id: 6,
+    title: "Spatial-Temporal EV Infrastructure & Charging Desert Analyzer",
+    description: "A geospatial analytics application analyzing electric vehicle infrastructure coverage, deployment dynamics, and automated spatial detection of charging deserts.",
+    technologies: ["Python", "Streamlit", "GeoPandas", "Folium", "Streamlit-Folium", "Plotly", "Scikit-learn", "Shapely", "Pandas", "Pytest"],
+    category: "Geospatial Data Science / Transport Analytics / Machine Learning",
+    year: "2026",
+    github: "https://github.com/kimhanna3/Spatial-Temporal-EV-Infrastructure-Charging-Desert-Analyzer",
+    image: "/images/projects/ev-charging-desert-analyzer.jpg",
+    featured: true
+  },
+  {
     id: 1,
     title: "House Price Prediction",
     description: "Built a comprehensive regression model to predict house prices using advanced feature engineering and ensemble methods. Compared Linear Regression, XGBoost, and Random Forest models, achieving 89% accuracy through careful hyperparameter tuning and feature importance analysis.",
