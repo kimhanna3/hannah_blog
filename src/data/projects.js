@@ -42,5 +42,16 @@ export const projects = [
     github: "https://github.com/kimhanna3/energy-forecasting",
     image: "/images/projects/energy-forecast.jpg",
     featured: false
+  },
+  {
+    id: 5,
+    title: "Supply Chain & Inventory Bottleneck Simulator",
+    description: "An interactive simulation app and analytics dashboard modeling discrete-event supply chain workflows, repair line WIP limits, parts availability, and automated bottleneck detection.",
+    technologies: ["Python", "Streamlit", "SimPy", "Pandas", "NumPy", "Plotly", "Pytest"],
+    category: "Supply Chain Analytics / Operations Research / Interactive Web Apps",
+    year: "2026",
+    github: "https://github.com/kimhanna3/Supply-Chain-Inventory-Bottleneck-Simulator",
+    image: "/images/projects/supply-chain-simulator.jpg",
+    featured: true
   }
 ];
