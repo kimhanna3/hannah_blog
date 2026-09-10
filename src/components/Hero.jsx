@@ -27,16 +27,16 @@ const Hero = () => {
             </h2>
             <div className="prose prose-lg max-w-none mb-8">
               <p className="text-gray-600 leading-relaxed mb-4">
-                I'm a recent Grinnell College grad with a dual focus in Statistics and Biology, currently diving into data at Argonne National Laboratory as a SULI Data Scientist. My work blends data science, AI/ML, and storytelling—often through interactive visualizations that make even the messiest datasets sing.
+                I'm a Grinnell College grad with a background in Biology and Statistics, currently pursuing my Master's in Analytics at Georgia Tech while managing operations at Samsung Electronics America. My work sits at the intersection of data science, operational strategy, and AI—from building forecasting models to optimize repair supply chains, analyzing massive datasets, or designing interactive visualizations that make complex data clear and actionable.
               </p>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Whether I'm analyzing vehicle trends or optimizing group assignments with custom-built R packages, I love turning raw data into real-world impact. I especially enjoy working on projects at the intersection of healthcare, sustainability, and technology, and I'm always looking for ways to level up my Python, R, and SQL chops (bonus points if it involves machine learning or cool Sankey plots).
+                As an AI Experience (AX) committee member at Samsung, I love helping teams adopt AI tools to eliminate manual busywork and work smarter. At Samsung, I've been focused on building forecasting models to fix supply chain bottlenecks, and during my SULI internship at Argonne, I analyzed electric vehicle adoption trends across the U.S. Across both roles, I love taking messy, complex data and using tools like Python, R, and SQL to make operations run smoother.
               </p>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Outside the screen, you'll probably find me in the kitchen cooking up a storm of Korean comfort food, reading thriller novels that keep me up too late, or button-mashing my way through PS5 and Nintendo Switch games with my boyfriend and our energetic pup, Zoro.
+                Outside of work, you'll usually find me training for my next race (currently eyeing my first half-marathon after tackling 5Ks and 10Ks), hunting down local coffee spots and new restaurants, binge-watching crime investigation shows, or cooking up Korean food.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                This site is my little corner of the internet to share what I'm building, learning, and thinking about—whether it's a new data viz, a tech write-up, or just something I found fascinating this week. Thanks for stopping by!
+                This site is my little corner of the internet to share what I'm building, learning, and thinking about—whether it's a new data project, a tech write-up, or a topic I found fascinating this week. Thanks for stopping by!
               </p>
             </div>
             <Button href="/resume.pdf" variant="primary">
