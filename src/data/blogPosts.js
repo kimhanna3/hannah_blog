@@ -1,5 +1,67 @@
 export const blogPosts = [
   {
+    id: 6,
+    slug: "miles-and-macchiatos",
+    title: "Miles & Macchiatos: Training for My First Half-Marathon, One Coffee Shop at a Time",
+    date: "September 9, 2026",
+    categories: ["Personal", "Running", "Coffee", "Lifestyle"],
+    excerpt: "Two of my favorite routines have quietly become one: logging steady training miles for my first half-marathon, then rewarding myself by hunting down the best coffee shops around Dallas-Fort Worth. Here's how the two fit together.",
+    image: "/images/blog/miles-and-macchiatos.jpg",
+    content: `
+There are two things I look forward to every single week. The first is lacing up my shoes and heading out for a run. The second is finding a good cup of coffee to sit with afterward. Somewhere along the way, these two routines stopped being separate hobbies and started feeling like two halves of the same ritual: put in the miles, then go find something worth savoring. So I figured it was time to write about both.
+
+![Running shoes and GPS watch with weekly split graphics](image-url-here)
+
+## The Goal: 13.1 Miles This December
+
+This December, I'm running my first half-marathon at the BMW Dallas Marathon. Thirteen point one miles. Saying it out loud still makes me a little nervous, which is exactly why I signed up.
+
+For me, running has never really been about racing anyone. It's the one part of my day that has nothing to do with a screen, a deadline, or a dataset. It's where I go to clear my head. There's something about a steady, repetitive effort that untangles the knots from a long workday. And training for a specific event has added a layer I didn't expect to love as much as I do: discipline. Having a goal on the calendar turns "I should probably run today" into "this is part of the plan."
+
+## My Weekly Routine (and the Math Behind It)
+
+I'm a creature of structure, so my training looks refreshingly boring. Three miles, three times a week, plus one longer run on the weekend. Right now my long run sits at six miles, and I'm holding a comfortable, conversational pace of about 12 minutes per mile across everything.
+
+Because I can't help myself, I did the math.
+
+**The weekly total: 3 miles x 3 weekdays, plus one 6-mile long run, adds up to 15 miles every single week.**
+
+At a 12 minute per mile pace, that's roughly 180 minutes of running a week, or about three hours on my feet. What I find genuinely satisfying is the consistency of the pace itself. Holding the same 12 minute mile on a quick weekday 3-miler and on a longer weekend effort tells me my aerobic base is steady and dependable, not something I have to white-knuckle through. That's the quiet signal I look for week over week.
+
+The other number I keep in the back of my mind: my current long run of six miles is already about 46 percent of race day. And if I hold my current pace on race morning, 13.1 miles pencils out to a finish somewhere around 2 hours and 37 minutes. I'm not chasing that number. I'm just letting it sit there as proof that the gap between "where I am" and "where I need to be" is closeable, one weekend long run at a time.
+
+Steady progression. Small, repeatable inputs. Trust the compounding. It's honestly not so different from how I approach a good analysis.
+
+## Where the Coffee Comes In
+
+Here's the reward half of the ritual. After a long run, or sometimes just because I want an excuse to explore, I go hunting for coffee. The Dallas-Fort Worth area has a genuinely wonderful and underrated coffee scene, and I've made it a personal project to find the spots worth returning to. These three have earned a permanent place in my rotation.
+
+### Dessert Avenue (Lewisville)
+
+![Sweet pairings and a specialty drink at Dessert Avenue in Lewisville](image-url-here)
+
+Dessert Avenue is my go-to when I want the whole experience to feel like a treat. The atmosphere is cozy and warm, the kind of place you sink into rather than pass through. But the real magic is the pairings. Their drinks are thoughtfully made, and pairing one with something sweet turns a simple coffee run into a proper little celebration. It's exactly the kind of small indulgence that makes a 6-mile morning feel earned.
+
+### 1418 Coffee (Plano)
+
+![Espresso being pulled at 1418 Coffee in Plano](image-url-here)
+
+If Dessert Avenue is about the treat, 1418 Coffee is about the feeling of belonging. There's a genuinely welcoming, community-first energy to the place, the sort of shop where you sense the regulars know each other. The aesthetic is warm and inviting, and the espresso is seriously well made. It's become my spot for those slower mornings when I want good coffee and the comfortable hum of people around me.
+
+### Parks Coffee Roaster (Carrollton)
+
+![Freshly roasted beans and pour-over at Parks Coffee Roaster in Carrollton](image-url-here)
+
+Parks Coffee Roaster is where I go when I need room to breathe or think. It has a spacious, true-roastery feel, and you can taste the difference that freshly roasted coffee makes. Whether I want to fully relax and do nothing, or spread out and actually focus on something, this is the place that flexes to match the mood. There's a quiet productivity in the air that I love.
+
+## Bringing It All Together
+
+The more I think about it, the more these two routines mirror each other. Running is the structure: the plan, the discipline, the steady inputs I can measure and trust. Coffee is the discovery: the open-ended exploring, the small rewards, the reason to slow down and actually enjoy where I am. One builds the habit; the other makes the habit something I genuinely look forward to.
+
+So that's my season, at least until December. Fifteen miles a week, one cup at a time, inching toward 13.1. If you have a DFW coffee shop I need to add to the rotation, or you just want to talk pacing and long runs, I'd love to hear it. See you at the finish line, or the espresso bar.
+    `
+  },
+  {
     id: 1,
     slug: "the-art-of-feature-engineering",
     title: "The Art of Feature Engineering in Machine Learning",

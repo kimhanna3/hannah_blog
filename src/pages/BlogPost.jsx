@@ -61,6 +61,42 @@ const BlogPost = () => {
         {/* Post Content */}
         <div className="prose prose-lg max-w-none">
           {post.content.split('\n').map((paragraph, index) => {
+            const line = paragraph.trim();
+            // Handle Markdown images: ![alt](url)
+            const imageMatch = line.match(/^!\[(.*?)\]\((.*?)\)$/);
+            if (imageMatch) {
+              const [, alt, url] = imageMatch;
+              const isPlaceholder = !url || url === 'image-url-here';
+              if (isPlaceholder) {
+                return (
+                  <div
+                    key={index}
+                    className="my-8 rounded-xl border-2 border-dashed border-baby-blue bg-gray-50 py-12 px-6 text-center"
+                  >
+                    <div className="text-5xl mb-3">📷</div>
+                    <p className="text-gray-500 text-sm">{alt || 'Add your photo here'}</p>
+                  </div>
+                );
+              }
+              return (
+                <figure key={index} className="my-8">
+                  <img src={url} alt={alt} className="rounded-xl w-full object-cover" />
+                  {alt && (
+                    <figcaption className="text-center text-gray-500 text-sm mt-2">
+                      {alt}
+                    </figcaption>
+                  )}
+                </figure>
+              );
+            }
+            // Handle sub-headings
+            if (line.startsWith('### ')) {
+              return (
+                <h3 key={index} className="text-2xl font-bold text-gray-800 mt-10 mb-4">
+                  {line.replace('### ', '')}
+                </h3>
+              );
+            }
             // Handle headings
             if (paragraph.startsWith('## ')) {
               return (
