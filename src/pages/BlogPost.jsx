@@ -2,6 +2,36 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { blogPosts } from '../data/blogPosts';
 
+// Render inline Markdown links [text](url) within a paragraph as clickable anchors.
+const renderInline = (text) => {
+  const regex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  const parts = [];
+  let lastIndex = 0;
+  let match;
+  let key = 0;
+  while ((match = regex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.slice(lastIndex, match.index));
+    }
+    parts.push(
+      <a
+        key={key++}
+        href={match[2]}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-coral hover:text-[#FF5577] underline"
+      >
+        {match[1]}
+      </a>
+    );
+    lastIndex = regex.lastIndex;
+  }
+  if (lastIndex < text.length) {
+    parts.push(text.slice(lastIndex));
+  }
+  return parts.length ? parts : text;
+};
+
 const BlogPost = () => {
   const { slug } = useParams();
   const post = blogPosts.find(p => p.slug === slug);
@@ -121,7 +151,7 @@ const BlogPost = () => {
             if (paragraph.trim()) {
               return (
                 <p key={index} className="text-gray-600 leading-relaxed mb-6">
-                  {paragraph}
+                  {renderInline(paragraph)}
                 </p>
               );
             }

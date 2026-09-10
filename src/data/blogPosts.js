@@ -52,17 +52,23 @@ If you've read about my half-marathon training, you know the running is only hal
 
 Dessert Avenue is my go-to when I want the whole experience to feel like a treat. The atmosphere is cozy and warm, the kind of place you sink into rather than pass through. But the real magic is the pairings. Their drinks are thoughtfully made, and pairing one with something sweet turns a simple coffee run into a proper little celebration. It's exactly the kind of small indulgence that makes a 6-mile morning feel earned.
 
+See more at [Dessert Avenue's website](https://dessertavenue.us/lewisville) or on [Instagram](https://www.instagram.com/dessertavenue.us/).
+
 ## 1418 Coffee (Plano)
 
 ![Espresso being pulled at 1418 Coffee in Plano](image-url-here)
 
 If Dessert Avenue is about the treat, 1418 Coffee is about the feeling of belonging. There's a genuinely welcoming, community-first energy to the place, the sort of shop where you sense the regulars know each other. The aesthetic is warm and inviting, and the espresso is seriously well made. It's become my spot for those slower mornings when I want good coffee and the comfortable hum of people around me.
 
+See more at [1418 Coffee's website](https://www.1418coffee.com/) or on [Instagram](https://www.instagram.com/1418coffee/).
+
 ## Parks Coffee Roaster (Carrollton)
 
 ![Freshly roasted beans and pour-over at Parks Coffee Roaster in Carrollton](image-url-here)
 
 Parks Coffee Roaster is where I go when I need room to breathe or think. It has a spacious, true-roastery feel, and you can taste the difference that freshly roasted coffee makes. Whether I want to fully relax and do nothing, or spread out and actually focus on something, this is the place that flexes to match the mood. There's a quiet productivity in the air that I love.
+
+See more at [Parks Coffee's roastery page](https://www.parkscoffee.com/roastery) or on [Instagram](https://www.instagram.com/parkscoffee/).
 
 ## Bringing It All Together
 
